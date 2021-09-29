@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Datetime-bug",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

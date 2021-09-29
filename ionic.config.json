@@ -1,0 +1,7 @@
+{
+  "name": "Datetime-bug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
