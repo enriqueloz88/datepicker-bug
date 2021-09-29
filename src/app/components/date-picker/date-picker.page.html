@@ -1,0 +1,7 @@
+<div id="background" (click)="dismiss($event)">
+  <ion-datetime id="picker" [(ngModel)]="date">
+    <ion-buttons slot="buttons">
+      <ion-button (click)="confirm()">Done!</ion-button>
+    </ion-buttons>
+  </ion-datetime>
+</div>

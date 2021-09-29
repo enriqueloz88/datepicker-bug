@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'date-picker',
+    loadChildren: () => import('./components/date-picker/date-picker.module').then( m => m.DatePickerPageModule)
+  },
 ];
 
 @NgModule({
